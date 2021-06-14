@@ -20,23 +20,20 @@
 
 	<script type="text/javascript">
   // variables for the first series
-  var series_1_channel_id = 1413346;
+  var channel_id = 1413346;
+  var read_api_key = '8566081TI3WWFMG5';
+		
   var series_1_field_number = 2;
-  var series_1_read_api_key = '8566081TI3WWFMG5';
   var series_1_results = 10;
   var series_1_color = '#3399FF';
 
   // variables for the second series
-  var series_2_channel_id = 1413346;
   var series_2_field_number = 3;
-  var series_2_read_api_key = '8566081TI3WWFMG5';
   var series_2_results = 10;
   var series_2_color = '#FFCC00';
 
   // variables for the third series
-  var series_3_channel_id = 1413346;
   var series_3_field_number = 4;
-  var series_3_read_api_key = '8566081TI3WWFMG5';
   var series_3_results = 10;
   var series_3_color = '#9900FF';
 
@@ -55,11 +52,11 @@
     // add a blank chart
     addChart();
     // add the first series
-    addSeries(series_1_channel_id, series_1_field_number, series_1_read_api_key, series_1_results, series_1_color);
+    addSeries(channel_id, series_1_field_number, read_api_key, series_1_results, series_1_color);
     // add the second series
-    addSeries(series_2_channel_id, series_2_field_number, series_2_read_api_key, series_2_results, series_2_color);
+    addSeries(channel_id, series_2_field_number, read_api_key, series_2_results, series_2_color);
     // add the third series
-    addSeries(series_3_channel_id, series_3_field_number, series_3_read_api_key, series_3_results, series_3_color);
+    addSeries(channel_id, series_3_field_number, read_api_key, series_3_results, series_3_color);
   
   });
 
