@@ -25,7 +25,7 @@ Syntax highlighted code block
 
 [Link](https://amaethon-johnson.github.io/Amaethon.github.io/) and [Image]("Sans titre (2).png")
 ```
-[Gaph](https://amaethon-johnson.github.io/Amaethon.github.io/) and ![Image](Sans titre (2).png)
+[Gaph](https://amaethon-johnson.github.io/Amaethon.github.io/) and ![Image](Sans&#x20;titre&#x20;(2).png)
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
